@@ -1,7 +1,7 @@
 import React from 'react'
 import './Main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faMobileAlt, faEnvelope, faDatabase, faComments, faWrench, faTools, faHourglassEnd, faRedo } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faMobileAlt, faEnvelope, faDatabase, faComments, faWrench, faTools, faHourglassEnd, faRedo, faChartSimple, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Main = () => {
     return (
@@ -19,6 +19,7 @@ const Main = () => {
                                 <li><FontAwesomeIcon icon={faDesktop} /> Diseño desktop (computadoras)</li>
                                 <li><FontAwesomeIcon icon={faMobileAlt} /> Diseño mobile (celulares)</li>
                                 <li><FontAwesomeIcon icon={faEnvelope} /> Formulario de contacto</li>
+                                <li><FontAwesomeIcon icon={faMagnifyingGlass} /> Posicionamiento SEO en Google</li>
                             </ul>
                         </div>
                         <div className="col-2">
@@ -26,6 +27,7 @@ const Main = () => {
                                 <li><FontAwesomeIcon icon={faDatabase} /> Base de datos en Google Sheet</li>
                                 <li><FontAwesomeIcon icon={faComments} /> Botón directo a Whatsapp</li>
                                 <li><FontAwesomeIcon icon={faTools} /> Animaciones avanzadas</li>
+                                <li><FontAwesomeIcon icon={faChartSimple} /> Google Analitycs</li>
                             </ul>
                         </div>
                     </div>
