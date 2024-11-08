@@ -1,0 +1,125 @@
+.container.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Separación entre las tarjetas */
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}
+
+.card {
+    width: 50vw;
+    padding: 2rem 3rem;
+    background: #F8A568; /* Fondo naranja */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Agrega un borde redondeado si lo deseas */
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Ajusta el contenido horizontalmente */
+    align-items: center;
+    width: 100%;
+    background: #F8A568; /* Fondo del hero-card */
+    margin-bottom: 1rem;
+    color: #272A29; /* Color del texto */
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.footer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+
+.col-1, .col-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, p, li {
+    color: #272A29; /* Asegúrate de que el color del texto sea oscuro */
+}
+
+.main-card p{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat", serif;
+}
+
+.card.dark-card {
+    border: 1px solid #F8A568;
+    background: #272A29; /* Fondo oscuro */
+    color: #F8A568; /* Texto y bordes en naranja */
+}
+
+.card.dark-card .hero-card {
+    background: #272A29; /* Fondo oscuro */
+}
+
+.card.dark-card h2 {
+    color: #F8A568; /* Texto naranja */
+}
+
+.card.dark-card p {
+    color: #F8A568; /* Texto naranja */
+}
+
+
+.card.dark-card li {
+    color: #F8A568; /* Texto naranja */
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90vw;
+        padding: 1rem 2rem;
+    }
+    .hero-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero-card h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    li {
+        gap: 1rem;
+    }
+    .footer-card{
+        flex-direction: column
+    }
+}

@@ -1,0 +1,66 @@
+.container.footer {
+    position: relative;
+    justify-content: flex-end;
+}
+
+button {
+    color: #FFA500;
+    border: 1px solid #FFA500;
+    background: transparent;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 8rem;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+button:hover {
+    color: #272A29;
+    border: 1px solid #272A29;
+    background: #FFA500;
+}
+
+img {
+    width: 300px;
+}
+
+.position2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+}
+
+.position3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(-1);  
+}
+
+@media (max-width: 768px) {
+    .container.footer {
+        overflow: hidden;
+        padding-bottom: 10rem;
+    }
+    .position2 {
+        position: absolute;
+        right: -50vw;
+        bottom: -20vh;
+    }
+    
+    .position3 {
+        position: absolute;
+        left: -50vw;
+        bottom: -20vh;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,92 @@
+.container.hero {
+    padding-top: 4rem;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    line-height: 4rem;
+    padding: 1rem;
+    color: #FFA500;
+}
+
+h3 {
+    color: #F8A568;
+}
+
+.subtitle p {
+    margin: 0; /* Asegúrate de eliminar márgenes innecesarios */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #F8A568;
+}
+
+.subtitle p span {
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    display: inline-block; /* Asegúrate de que el span sea tratado como un bloque alineado */
+    text-align: center; /* Centra el contenido del span si es necesario */
+    color: #FFA500;
+}
+
+img {
+    width: 300px;
+}
+
+.position1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.position4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container.hero {
+        padding-top: 5rem;
+    }
+    .position1 {
+        position: absolute;
+        left: -50vw;
+        top: -20vh;
+    }
+    
+    .position4 {
+        position: absolute;
+        right: -50vw;
+        top: -20vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding: 1rem;
+        color: #FFA500;
+    }
+    
+    h3 {
+        color: #F8A568;
+        font-size: 2.2rem;
+    }
+    
+    .subtitle p {
+        gap: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .subtitle p span {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+        font-family: "Bebas Neue", sans-serif;
+        display: inline-block; /* Asegúrate de que el span sea tratado como un bloque alineado */
+        text-align: center; /* Centra el contenido del span si es necesario */
+        color: #FFA500;
+    }
+}
