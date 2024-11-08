@@ -9,16 +9,16 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>Alisos Club - Asociación Civil | Cannabis Medicinal</title>
+        <title>CanepaDev - Cotizacion | Web Services</title>
         <meta
           name="description"
-          content="Asociación Civil comprometida con el bienestar y la salud en la provincia de Tucumán, Argentina."
+          content="Cotizacion servicio web de Tucumán, Argentina."
         />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Alisos Club",
+            "name": "CanepaDev",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "25 de Mayo 123",
@@ -27,10 +27,10 @@ function App() {
               "postalCode": "4000",
               "addressCountry": "AR",
             },
-            "telephone": "+5493816492599",
+            "telephone": "+5493816671884",
             "description":
-              "Asociación Civil comprometida con el bienestar y la salud en la provincia de Tucumán, Argentina. Ofrecemos información, asistencia y productos de cannabis medicinal de alta calidad.",
-            "url": "https://alisosclub.vercel.app/",
+              "Cotizacion webservices, paginas web, landingpage, desarrollo de software.",
+            "url": "https://canepadev-cotizaciones.vercel.app/",
           })}
         </script>
       </Helmet>
