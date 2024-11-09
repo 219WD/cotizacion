@@ -3,7 +3,7 @@
     "short_name": "CanepaDev",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#272A29",
     "description": "Agencia especializada en desarrollo web, software y marketing digital. ¡Transformamos tu negocio digitalmente!",
     "icons": [
       {
