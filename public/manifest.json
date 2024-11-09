@@ -1,0 +1,16 @@
+{
+    "name": "Canepa Dev Cotizacion",
+    "short_name": "CanepaDev",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Agencia especializada en desarrollo web, software y marketing digital. ¡Transformamos tu negocio digitalmente!",
+    "icons": [
+      {
+        "src": "/1.svg", 
+        "sizes": "192x192",
+        "type": "image/svg+xml" 
+      }
+    ]
+  }
+  
