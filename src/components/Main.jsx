@@ -9,7 +9,7 @@ const Main = () => {
             <div className="card">
                 <div className="hero-card">
                     <h2>Diseño <br /> Landingpage</h2>
-                    <h2>$700</h2>
+                    <h2>$200</h2>
                 </div>
                 <div className="main-card">
                     <p>Página web responsiva y personalizada</p>
@@ -18,15 +18,15 @@ const Main = () => {
                             <ul>
                                 <li><FontAwesomeIcon icon={faDesktop} /> Diseño desktop (computadoras)</li>
                                 <li><FontAwesomeIcon icon={faMobileAlt} /> Diseño mobile (celulares)</li>
-                                <li><FontAwesomeIcon icon={faEnvelope} /> Formulario de contacto</li>
+                                {/* <li><FontAwesomeIcon icon={faEnvelope} /> Formulario de contacto</li> */}
                                 <li><FontAwesomeIcon icon={faMagnifyingGlass} /> Posicionamiento SEO en Google</li>
                             </ul>
                         </div>
                         <div className="col-2">
                             <ul>
-                                <li><FontAwesomeIcon icon={faDatabase} /> Base de datos en Google Sheet</li>
+                                {/* <li><FontAwesomeIcon icon={faDatabase} /> Base de datos en Google Sheet</li> */}
                                 <li><FontAwesomeIcon icon={faComments} /> Botón directo a Whatsapp</li>
-                                <li><FontAwesomeIcon icon={faTools} /> Animaciones avanzadas</li>
+                                <li><FontAwesomeIcon icon={faTools} /> Animaciones basicas</li>
                                 <li><FontAwesomeIcon icon={faChartSimple} /> Google Analitycs</li>
                             </ul>
                         </div>

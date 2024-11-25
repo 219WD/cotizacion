@@ -37,7 +37,7 @@ const Footer = () => {
   return (
     <div className='container footer'>
       <button onClick={handleAddToHomeScreen}>
-        Crear acceso directo
+        Descargar Cotizacion
       </button>
       <img src={Circulo} alt="" className='position2' />
       <img src={Www} alt="" className='position3' />

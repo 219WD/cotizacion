@@ -11,7 +11,7 @@ const Hero = () => {
             <h3>Web Services</h3>
             <h1>Cotización <br /> CanepaDev</h1>
             <div className="subtitle">
-                <p>En colaboracion con <span>Mental Peace</span></p>
+                <p>En colaboracion con <span>Click MKT</span></p>
             </div>
         </header>
     )
