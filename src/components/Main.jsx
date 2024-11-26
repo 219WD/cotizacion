@@ -9,7 +9,7 @@ const Main = () => {
             <div className="card">
                 <div className="hero-card">
                     <h2>Diseño <br /> Landingpage</h2>
-                    <h2>$200</h2>
+                    <h2>$300</h2>
                 </div>
                 <div className="main-card">
                     <p>Página web responsiva y personalizada</p>
@@ -61,7 +61,7 @@ const Main = () => {
             <div className="card"> 
                 <div className="hero-card">
                     <h2>Precio<br />  Final</h2>
-                    <h2>$300</h2>
+                    <h2>$400</h2>
                 </div>
                 <div className="main-card">
                     <p>Liquidación final: Landingpage y Host</p>
