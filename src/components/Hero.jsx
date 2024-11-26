@@ -10,9 +10,9 @@ const Hero = () => {
             <img src={Www} alt="" className='position4' />
             <h3>Web Services</h3>
             <h1>Cotización <br /> CanepaDev</h1>
-            <div className="subtitle">
+{/*             <div className="subtitle">
                 <p>En colaboracion con <span>Click MKT</span></p>
-            </div>
+            </div> */}
         </header>
     )
 }
