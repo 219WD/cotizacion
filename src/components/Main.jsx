@@ -21,7 +21,7 @@ const Main = () => {
             <div className="card">
                 <div className="hero-card">
                     <h2>Diseño <br /> Landingpage</h2>
-                    <h2>$200</h2>
+                    <h2>$300</h2>
                 </div>
                 <div className="main-card">
                     <p>Página web responsiva y personalizada</p>
@@ -72,6 +72,7 @@ const Main = () => {
             {/* TARJETA BRANDING */}
             <div className="card dark-card">
                 <div className="hero-card">
+<<<<<<< HEAD
                     <h2>Branding</h2>
                     <h2>$200</h2>
                 </div>
@@ -124,6 +125,10 @@ const Main = () => {
                 <div className="hero-card">
                     <h2>Precio<br /> Final</h2>
                     <h2>$700</h2>
+=======
+                    <h2>Precio<br />  Final</h2>
+                    <h2>$400</h2>
+>>>>>>> 042ea6d9b6a266ae759435e408878c52dfcaabca
                 </div>
                 <div className="main-card">
                     <p>Liquidación final: Landingpage y Host</p>
