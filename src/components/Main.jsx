@@ -88,7 +88,7 @@ const Main = () => {
                         </div>
                         <div className="col-2">
                             <ul>
-                                <li><FontAwesomeIcon icon={faBook} /> Manual básico de marca</li>
+                                <li><FontAwesomeIcon icon={faBook} /> Creación de video publicitario para anuncios, web y redes sociales</li>
                             </ul>
                         </div>
                     </div>
