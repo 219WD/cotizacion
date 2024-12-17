@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>CanepaDev - Cotizacion | Web Services</title>
+        <title>219Labs - Cotizacion Alejandro Martinez</title>
         <meta
           name="description"
           content="Cotizacion servicio web de Tucumán, Argentina."
@@ -18,7 +18,7 @@ function App() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "CanepaDev",
+            "name": "219Labs",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "25 de Mayo 123",
@@ -30,7 +30,7 @@ function App() {
             "telephone": "+5493816671884",
             "description":
               "Cotizacion webservices, paginas web, landingpage, desarrollo de software.",
-            "url": "https://canepadev-cotizaciones.vercel.app/",
+            "url": "https://219labs-cotizacion-alejandro.vercel.app/",
           })}
         </script>
       </Helmet>
