@@ -4,14 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faDesktop, faMobileAlt, faEnvelope,
     faDatabase, faComments, faWrench,
-    faTools, faHourglassEnd, faRedo,
+    faTools, faHourglassEnd,
     faChartSimple, faMagnifyingGlass, faPenNib,
-    faPalette, faFont, faBook,
+    faPalette, faFont,
     faBullhorn,
     faChartLine,
     faReply,
     faSliders,
-    faMoneyBillWave
+    faMoneyBillWave,
+    faVideo
 } from '@fortawesome/free-solid-svg-icons';
 
 const Main = () => {
@@ -88,7 +89,7 @@ const Main = () => {
                         </div>
                         <div className="col-2">
                             <ul>
-                                <li><FontAwesomeIcon icon={faBook} /> Creación de video publicitario para anuncios, web y redes sociales</li>
+                                <li><FontAwesomeIcon icon={faVideo} /> Creación de video publicitario para anuncios, web y redes sociales</li>
                             </ul>
                         </div>
                     </div>
